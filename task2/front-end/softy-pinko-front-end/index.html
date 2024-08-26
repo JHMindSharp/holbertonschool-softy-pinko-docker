@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <h1 id="dynamic-content">Hello, World!</h1>
+    <script>
+      $(function() {
+        $.ajax({
+          type: "GET",
+          url: "http://localhost:5252/api/hello",
+          success: function(data) {
+            $('#dynamic-content').text(data);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
