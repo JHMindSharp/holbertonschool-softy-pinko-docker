@@ -6,8 +6,6 @@
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
 - [How to Run the Project](#how-to-run-the-project)
-  - [English](#english)
-  - [Français](#français)
 - [Tasks Overview](#tasks-overview)
 - [Scaling the Backend](#scaling-the-backend)
 - [Useful Commands](#useful-commands)
@@ -41,8 +39,6 @@ holbertonschool-softy-pinko-docker/
 - **proxy/**: Contains the Nginx configuration for load balancing between multiple backend servers.
 
 ## How to Run the Project
-
-### English
 
 1. **Clone the Repository**
    ```bash
